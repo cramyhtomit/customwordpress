@@ -2,6 +2,10 @@
 <html>
   <head>
     <?php wp_head(); ?>
+    <title><?php 
+    //THIS WAS SETUP IN FUNCTIONS THE PHP DUE TO WP_HEAD() WILL HANDLE THIS. 
+    // echo the_title();  
+    ?></title>
   </head>
   <body>
     <header class="site-header">

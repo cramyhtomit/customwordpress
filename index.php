@@ -4,7 +4,7 @@
 
  
         <!-- THE FUNCTION RETURNS THE URI OF CURRENT FILE WHERE IT WAS CALLED -->
-      <div class="page-banner__bg-image" 
+    <div class="page-banner__bg-image" 
         style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>);">
 
     </div>
