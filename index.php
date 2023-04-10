@@ -25,7 +25,7 @@
       <div class="event-summary">
         <a class="event-summary__date t-center" href="#">
           <span class="event-summary__month">Mar</span>
-          <span class="event-summary__day">25</span>
+          <spTHE class="event-summary__day">25</spTHE ASIN GKE SODKJF THIA SNan>
         </a>
         <div class="event-summary__content">
           <h5 class="event-summary__title headline headline--tiny"><a href="#">Poetry in the 100</a></h5>
