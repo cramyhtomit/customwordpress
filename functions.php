@@ -12,6 +12,12 @@ function university_files(){
     
 }
 
+//ADDS THE TITLE OF THE PAGE
+function theme_setup() {
+    add_theme_support('title-tag');
+}
+
 add_action( "wp_enqueue_scripts", "university_files");
+add_action("after_setup_theme", "theme_setup");
 
 ?>  
