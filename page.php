@@ -53,7 +53,8 @@ while(have_posts()) {
         // THIS IS THE SAME GET_PAGES() BUT THIS HANDLES THE PAGES, LINKS AND RETURN <LI></LI>
         wp_list_pages(array(
           'title_li' => NULL,
-          'child_of' => $id
+          'child_of' => $id,
+          'sort_column' => 'menu_order'
         )); 
 
       ?>
